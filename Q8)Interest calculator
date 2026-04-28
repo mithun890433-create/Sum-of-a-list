@@ -1,0 +1,6 @@
+principal = float(input("Principal amount: "))
+rate = float(input("Rate of interest (%): "))
+time = float(input("Time (years): "))
+interest = (principal * rate * time) / 100
+print(f"Simple Interest: ${interest:.2f}")
+print(f"Total Amount: ${principal + interest:.2f}")
