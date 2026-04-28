@@ -1,0 +1,2 @@
+n = float(input("Number: "))
+print(abs(n))
