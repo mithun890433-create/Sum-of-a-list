@@ -1,0 +1,5 @@
+import math
+a=float(input("enter A"))
+b=float(input("enter B"))
+c=math.sqrt(Pow(a,2)+Pow(b,2))
+print(f"side c={c}")
